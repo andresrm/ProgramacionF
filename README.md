@@ -1,0 +1,6 @@
+# ProgramacionF
+##Prodructos de mi curso de Programación de Fortran (2015-1)
+Aquí subo todos los prodructos, programas fuente y resultados.
+* notas.txt (comandos de bash)
+* lo que sigue...
+* y sigue...
