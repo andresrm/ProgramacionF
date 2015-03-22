@@ -1,0 +1,27 @@
+Comandos Bash
+
+mkdir Crea directorios home@home­desktop:~$ mkdir dir1
+cp    Copia ficheros   home@home­desktop:~$ cp dir1/subdir1/* dir2/
+mv    Mueve ficheros.  home@home­desktop:~/dir2$ mv archivoA.dat archivoX.dat
+rm    Elimina ficheros.	home@home­desktop:~/dir2$ rm archivo*
+file  Muestra el tipo de archivo.	home@home­desktop:~$ file mailbox
+ls    Lista contenidos de un directorio	home@home­desktop:~/dir1$ ls
+find  Encuentra archivos.		home@home­desktop:~/dir1$ find ­name 'arch*A*'
+sudo  Permite ejecutar un comando desde como otro usuario.	home@home­desktop:~/dir1$ sudo ­u root nano/etc/apt/sources.list
+chown Cambia el propietario de un fichero.			home@home­desktop:~/dir1$ sudo chown ­R root subdir1/
+echo  Muestra texto.						home@home­desktop:~/dir1$ echo hola
+cd    Cambia de directorio.					home@home­desktop:~$ cd dir1/
+pwd   Imprime la dirección del directorio actual.		home@home­desktop:~$ pwd/home/home
+chmod Cambia los permisos de un fichero.			home@home­desktop:~/dir1$ chmod u+x archivo.tar.gz
+tac   Concatena e imprime archivos invertidos.			home@home­desktop:~/dir1$ tac archivo1.dat
+tr    Traduce o borra caracteres				home@home­desktop:~/dir1$ tr nh ñ
+grep  Muestra las coincidencias con la entrada que se le brinde.	home@home­desktop:~/dir1$ dpkg ­l | grep klipper
+man   Permite acceder al manual del comando dado. Especifica detalladamente todas las formas de uso con las respectivas opciones. man ­k texto a buscar
+cal   Muetra un calendario
+cmp   Compara dos filas	cmp mifile1 mifile2
+date  Muestra o cambia la fecha y hora
+dc    Calculadora de escritorio
+eject Expulsa media removible
+kill  Detiene procesos de estar corriendo	 kill -HUP <pid>
+tail  muestra las ‘n’ ultimas lineas de un fichero texto   tail ~/mifile
+sleep Retrasa por cierto tiempo	sleep 5
