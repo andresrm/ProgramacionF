@@ -1,0 +1,192 @@
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.10)  31 MAR 2015 14:32
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**Reporte2.tex
+(./Reporte2.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (./Reporte2.aux)
+\openout1 = `Reporte2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 10.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 10.
+
+Overfull \hbox (2.69507pt too wide) in paragraph at lines 13--14
+\OT1/cmr/m/n/10 Un com-pi-lador tra-duce com-ple-ta-mente un pro-grama fuente e
+s-crito en un lenguaje
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
+
+Overfull \hbox (41.02849pt too wide) in paragraph at lines 16--34
+[] 
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 39.
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 39.
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no © in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+
+Overfull \hbox (200.99524pt too wide) in paragraph at lines 57--57
+[]    \OT1/cmtt/m/n/10 write(*,*) 'Si el nmero tiene 2 digtos, smalos entre si;
+ Si tu nmero tiene unn solo dgito, smale 0.'[] 
+ []
+
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+[1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no © in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+
+Overfull \hbox (253.49478pt too wide) in paragraph at lines 91--91
+[]\OT1/cmtt/m/n/10 cout << "Si el nmero tiene 2 dgitos, smalos entre si: Ej. 36
+ -> 3+6=9. Si tu nmero tiene un solo dgito, smale 0.";[] 
+ []
+
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no © in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no ­ in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+
+Overfull \hbox (232.49496pt too wide) in paragraph at lines 121--121
+[]\OT1/cmtt/m/n/10 puts "Si el nmero tiene 2 dgitos, smalos entre si: Ej. 36 ->
+ 3+6=9. Si tu nmero tiene un solo dgito, smale 0."[] 
+ []
+
+[2]
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+Missing character: There is no Ã in font cmtt10!
+Missing character: There is no º in font cmtt10!
+
+Overfull \hbox (279.74455pt too wide) in paragraph at lines 157--157
+[]\OT1/cmtt/m/n/10 print "Si el numero es de dos digitos, sumalos entre si: Ej.
+ 36  -> 3+6=9. Si tu numero tiene un solo digito, sumale 0"[] 
+ []
+
+[3]
+Overfull \hbox (32.9967pt too wide) in paragraph at lines 210--210
+[]\OT1/cmtt/m/n/10 System.out.println("Si el numero es de dos digitos, sumalos 
+entre si.");[] 
+ []
+
+[4] (./Reporte2.aux) ) 
+Here is how much of TeX's memory you used:
+ 252 strings out of 493304
+ 2812 string characters out of 6139871
+ 57880 words of memory out of 5000000
+ 3783 multiletter control sequences out of 15000+600000
+ 7448 words of font info for 27 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 23i,7n,19p,340b,241s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pf
+b></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share
+/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on Reporte2.pdf (4 pages, 80326 bytes).
+PDF statistics:
+ 41 PDF objects out of 1000 (max. 8388607)
+ 28 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
