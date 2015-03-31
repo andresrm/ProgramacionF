@@ -7,8 +7,8 @@ rm    Elimina ficheros.	rm archivo*
 file  Muestra el tipo de archivo.	$ file mailbox
 ls    Lista contenidos de un directorio	/dir1$ ls
 find  Encuentra archivos.		find ­name 'arch*A*'
-sudo  Permite ejecutar un comando desde como otro usuario.	/dir1$ sudo ­u root nano/etc/apt/sources.list
-chown Cambia el propietario de un fichero.			/dir1$ sudo chown ­R root subdir1/
+sudo  Permite ejecutar un comando desde como otro usuario.	sudo ­u root nano/etc/apt/sources.list
+chown Cambia el propietario de un fichero.			 sudo chown ­R root subdir1/
 echo  Muestra texto.						echo hola
 cd    Cambia de directorio.					cd dir1/
 pwd   Imprime la dirección del directorio actual.		pwd/home/home
