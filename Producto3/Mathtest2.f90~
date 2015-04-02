@@ -1,0 +1,11 @@
+Program Mathtest2
+  
+  Real *8 :: x=-1.0 , w, y, z 
+  y=sqrt(x)
+  z=asin(x+3.0)
+  w=log(x+1.0)
+
+  
+  Print * , x, y, z, w
+
+End Program Mathtest2
