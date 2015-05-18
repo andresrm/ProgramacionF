@@ -1,0 +1,239 @@
+Program Mareas
+Implicit None
+
+real, dimension (1:7674) :: Altura
+real :: Max1, Max2, Max3, Max4, Max5,Min1, Min2, Min3, Min4, Min5
+real :: Tiempo1M, Tiempo2M, Tiempo3M, Tiempo4M, Tiempo5M, Tiempo1MIN, Tiempo2MIN
+real :: Tiempo3MIN, Tiempo4MIN, Tiempo5MIN, Periodomax1, Periodomax2, Periodomax3, k
+real :: Periodomax4, Periodomin1, Periodomin2, Periodomin3, Periodomin4, Promax, Promin
+real:: Maxdiurno1, Maxdiurno2, Maxdiurno3, Maxdiurno4
+real :: Maxnocturno1, Maxnocturno2, Maxnocturno3, Maxnocturno4
+real :: TiempoMaxdiurno1,TiempoMaxdiurno2,TiempoMaxdiurno3,TiempoMaxdiurno4
+real :: TiempoMaxnocturno1,TiempoMaxnocturno2,TiempoMaxnocturno3,TiempoMaxnocturno4
+real:: Periodomaxdiurno1,Periodomaxdiurno2,Periodomaxdiurno3,Periodomaxnocturno1, Periodomaxnocturno2, Periodomaxnocturno3
+real :: Promaxdiurno, Promaxnocturno
+integer :: i
+
+open (1, file="Mareas.csv")
+do i=1, 7674
+read (1,*) Altura (i)
+end do
+close (1)
+
+Max1=0
+do i=1, 1440
+k= Max1-Altura(i)
+if (k<0) then
+Max1= Altura(i)
+Tiempo1M=i/48.00
+end if
+end do
+ 
+Max2=0
+do i=1441, 2880
+k=Max2-Altura(i)
+if (k<0) then
+Max2= Altura(i)
+Tiempo2M=i/48.00
+
+end if
+end do
+
+Max3=0
+do i=2881,4320
+k= Max3-Altura(i)
+if (k<0) then
+Max3= Altura (i)
+Tiempo3M=i/48.00
+end if
+end do
+
+Max4=0
+do i=4321,5761
+k= Max4-Altura(i)
+if (k<0) then
+Max4= Altura (i)
+Tiempo4M=i/48.00
+end if
+end do
+
+Max5=0
+do i=5762,7202
+k= Max5-Altura(i)
+if (k<0) then
+Max5= Altura(i)
+Tiempo5M=i/48.00
+end if
+end do
+
+
+
+
+
+
+
+
+
+
+Min1=0
+do i=1, 1440
+k= Min1-Altura(i)
+if (k>0) then
+Min1= Altura(i)
+Tiempo1MIN=i/48.00
+end if
+end do
+
+Min2=0
+do i=1441, 2880
+k=Min2-Altura(i)
+if (k>0) then
+Min2= Altura(i)
+Tiempo2MIN=i/48.00
+
+end if
+end do
+
+Min3=0
+do i=2881,4320
+k= Min3-Altura(i)
+if (k>0) then
+Min3= Altura (i)
+Tiempo3MIN=i/48.00
+end if
+end do
+
+Min4=0
+do i=4321,5761
+k= Min4-Altura(i)
+if (k>0) then
+Min4= Altura (i)
+Tiempo4MIN=i/48.00
+end if
+end do
+
+Min5=0
+do i=5762,7202
+k= Min5-Altura(i)
+if (k>0) then
+Min5= Altura(i)
+Tiempo5MIN=i/48.00
+end if
+end do
+
+
+Maxdiurno1=0
+do i=1,24
+k=Maxdiurno1-Altura(i)
+if (k<0) then
+Maxdiurno1= Altura (i)
+TiempoMaxdiurno1= i/48.00
+end if
+end do 
+
+Maxnocturno1=0
+do i=25,48
+k=Maxnocturno1-Altura(i)
+if (k<0) then
+Maxnocturno1= Altura(i)
+TiempoMaxnocturno1= i/48.00
+end if
+end do
+
+Maxdiurno2=0
+do i=49,73
+k=Maxdiurno2-Altura(i)
+if (k<0) then
+Maxdiurno2= Altura (i)
+TiempoMaxdiurno2= i/48.00
+end if
+end do 
+
+
+Maxnocturno2=0
+do i=74,98
+k= Maxnocturno2-Altura(i)
+if (k<0) then
+Maxnocturno2= Altura(i)
+TiempoMaxnocturno2= i/48.00
+end if 
+end do
+
+
+Maxdiurno3=0
+do i=99,123
+k= Maxdiurno3-Altura(i)
+if (k<0) then
+Maxdiurno3= Altura(i)
+TiempoMaxdiurno3= i/48.00
+end if
+end do 
+
+Maxnocturno3=0
+do i=124,148
+k= Maxnocturno3-Altura(i)
+if (k<0) then
+Maxnocturno3= Altura(i)
+TiempoMaxnocturno3= i/48.00
+end if 
+end do
+
+Maxdiurno4=0
+do i=149,173
+k= Maxdiurno4-Altura(i)
+if (k<0) then
+Maxdiurno4= Altura(i)
+TiempoMaxdiurno4= i/48.00
+end if
+end do 
+
+
+Maxnocturno4=0
+do i=174,198
+k= Maxnocturno4-Altura(i)
+if (k<0) then
+Maxnocturno4= Altura(i)
+TiempoMaxnocturno4= i/48.00
+end if 
+end do
+
+
+
+
+
+
+Periodomax1= (Tiempo2M-Tiempo1M)
+Periodomax2= (Tiempo3M-Tiempo2M)
+Periodomax3= (Tiempo4M-Tiempo3M)
+Periodomax4= (Tiempo5M-Tiempo4M)
+Periodomin1= (Tiempo2MIN-Tiempo1MIN)
+Periodomin2= (Tiempo3MIN-Tiempo2MIN)
+Periodomin3= (Tiempo4MIN-Tiempo3MIN)
+Periodomin4= (Tiempo5MIN-Tiempo4MIN)
+Promax= ((Periodomax1+Periodomax2+Periodomax3+Periodomax4)/4)
+Promin= ((Periodomin1+Periodomin2+Periodomin3+Periodomin4)/4)
+Periodomaxdiurno1= (TiempoMaxdiurno2-TiempoMaxdiurno1)
+Periodomaxdiurno2= (TiempoMaxdiurno3-TiempoMaxdiurno2)
+Periodomaxdiurno3= (TiempoMaxdiurno4-TiempoMaxdiurno3)
+Periodomaxnocturno1= (TiempoMaxnocturno2-TiempoMaxnocturno1)
+Periodomaxnocturno2= (TiempoMaxnocturno3-TiempoMaxnocturno2)
+Periodomaxnocturno3= (TiempoMaxnocturno4-TiempoMaxnocturno3)
+promaxdiurno = ((Periodomaxdiurno1+Periodomaxdiurno2+Periodomaxdiurno3)/3)
+promaxnocturno = ((Periodomaxnocturno1+Periodomaxnocturno2+Periodomaxnocturno3)/3)
+
+Print *, 'Las mareas maximas de los cinco meses son', Max1, Max2, Max3, Max4, Max5
+Print *, 'Las mareas minimas de los cinco meses son', Min1, Min2, Min3, Min4, Min5
+Print *,'Tiempos de las mareas maximas', Tiempo1M, Tiempo2M, Tiempo3M, Tiempo4M, Tiempo5M
+Print *, 'Tiempo de las mareas minimas', Tiempo1MIN, Tiempo2MIN, Tiempo3MIN, Tiempo4MIN, Tiempo5MIN
+Print *, 'Periodos de maximos', Periodomax1, Periodomax2, Periodomax3, Periodomax4
+Print *, 'Periodos de minimos', Periodomin1, Periodomin2, Periodomin3, Periodomin4
+Print *, 'Promedio de periodos de las mareas maximas', Promax
+Print *, 'Promedio de periodos de las mareas maximas', Promin
+Print *, 'Las mareas maximas diurnas de cinco dias son', Maxdiurno1,Maxdiurno2,Maxdiurno3,Maxdiurno4
+Print *, 'Las mareas maximas nocturnas de cinco dias son', Maxnocturno1, Maxnocturno2, Maxnocturno3, Maxnocturno4
+Print *, 'Tiempos de mareas maximas diurnas', TiempoMaxdiurno1,TiempoMaxdiurno2,TiempoMaxdiurno3,TiempoMaxdiurno4
+Print *, 'Tiempos de mareas maximas nocturnas', TiempoMaxnocturno1,TiempoMaxnocturno2,TiempoMaxnocturno3,TiempoMaxnocturno4
+Print *, 'Periodos de maximos diurnos',Periodomaxdiurno1,Periodomaxdiurno2,Periodomaxdiurno3
+Print *, 'Periodos de maximos nocturnos',Periodomaxnocturno1, Periodomaxnocturno2, Periodomaxnocturno3
+Print *, 'Promedio de periodos de maximos diurnos',Promaxdiurno
+Print *, 'Promedio de periodos de maximos nocturnos', Promaxnocturno
