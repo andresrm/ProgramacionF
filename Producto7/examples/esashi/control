@@ -1,0 +1,23 @@
+&param
+kind=7,
+span=2160, shift=2160,
+dmin=0.50d0,
+lpout=0,   filout=1,
+lagp=3,
+timsys=0.0d0
+maxjmp=2,
+igrp=4,
+year=1992,mon=12,day=1,hr=0,min=0,sec=0,
+ndata=2160,delta=1.0,
+inform=1,
+rlim=9000,
+spectw=1,
+&end
+                      NS Strain
+
+----
+Esashi Earth Tide Station               station name
+quartz tube extensometer                 instrument name
+----
+10**(-9) strain                          unit of tidal data
+Atmospheric pressure                     title of assosiated dataset
